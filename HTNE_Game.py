@@ -164,7 +164,7 @@ class Obstacle (object):
 
     def load(self):
         self.spriteNum+=1
-        if self.spriteNum>=173: self.spriteNum=0
+        if self.spriteNum>=10: self.spriteNum=0
 
         while self.wrongSpriteList.count(self.spriteNum) !=0:
             self.spriteNum+=1
