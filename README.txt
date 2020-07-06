@@ -2,6 +2,7 @@ RUN GAME
 	Run Manager.py
 	Wait for 20sec for Google Colab to begin
 	Upload image or enter image URL
+	Run last cell manually, allow download
 	Google Colab downloads "HTNE_image.jpg" and "HTNE_stage.jpg"
 	Move images into same directory as HTNE_Game.py
 	
